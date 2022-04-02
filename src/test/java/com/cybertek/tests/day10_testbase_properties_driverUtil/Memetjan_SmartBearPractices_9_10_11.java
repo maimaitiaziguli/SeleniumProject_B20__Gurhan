@@ -48,9 +48,10 @@ public class Memetjan_SmartBearPractices_9_10_11 extends TestBase {
 
         for (WebElement eachName : nameList) {
 
+            Assert.assertFalse(eachName.getText().contains("Mark Smith"),"Failed");
+
         }
 
-        Assert.assertFalse(nameList.contains("Mark Smith"),"Failed");
     }
 
 

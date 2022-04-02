@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-public class P6_SmartbearDeleteOrder extends TestBase {
+public class P6_SmartbearDeleteOrder_9 extends TestBase {
 
    /*
     TC #9: SmartBear delete order

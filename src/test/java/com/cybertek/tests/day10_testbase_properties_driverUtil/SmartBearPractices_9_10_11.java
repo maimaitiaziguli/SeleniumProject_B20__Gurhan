@@ -39,6 +39,7 @@ public class SmartBearPractices_9_10_11 extends TestBase {
 
         driver.get(url);
 
+
         SmartBearUtilities.loginToSmartBear(driver);
         //Locate the checkbox for 'Mark Smith' and click to it
         BrowserUtils.wait(2);
@@ -48,10 +49,13 @@ public class SmartBearPractices_9_10_11 extends TestBase {
         BrowserUtils.wait(3);
         markSmithCheckbox.click();
         BrowserUtils.wait(3);
+
+
         //Locate 'Delete Selected' button and click to it
         WebElement deleteButton = driver.findElement(By.id("ctl00_MainContent_btnDelete"));
         deleteButton.click();
         //Assert 'Mark Smith' is not in the table
+
 
         List<WebElement> namesList = driver.findElements(By.xpath("//table[@id='ctl00_MainContent_orderGrid']//tr/td[2]"));
 

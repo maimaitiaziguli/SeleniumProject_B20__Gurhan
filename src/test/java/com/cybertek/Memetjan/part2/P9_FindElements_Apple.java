@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class P8_FindElements_Apple {
+public class P9_FindElements_Apple {
     public static void main(String[] args) {
       WebDriver driver;
       driver = WebDriverFactory.getDriver("chrome");

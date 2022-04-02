@@ -6,7 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class P1AmazonLinkNumberVerification {
+public class P1_AmazonLinkNumberVerification {
     public static void main(String[] args) throws InterruptedException{
         /*
         / TC #3: Amazon link number verification

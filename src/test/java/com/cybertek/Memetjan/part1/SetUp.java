@@ -1,4 +1,4 @@
-package com.cybertek.Memetjan;
+package com.cybertek.Memetjan.part1;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;

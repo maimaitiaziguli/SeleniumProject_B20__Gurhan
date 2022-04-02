@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class JavaScript_Alerts {
+public class P1_JavaScript_Alerts {
     /*
     1.open browser
     2. go to http://practice.cybertekschool.com/javascript_alerts
